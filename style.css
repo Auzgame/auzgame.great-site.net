@@ -1,0 +1,125 @@
+#container{
+  position: relative;
+}
+.centerA{
+  display:block;
+  text-align:center;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+  background-color: black;
+}
+h1{
+  text-align:center;
+  color: white;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.whiteText{
+  color: white;
+}
+
+#logo{
+  margin: auto;
+  display: block;
+  width: 400px;
+  height: 325px;
+}
+
+.ad{
+ width: 100px;
+ height: 200px;
+}
+.loader {
+  position: absolute;
+  left: 45%;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.topnav {
+  background-color:  #000000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.dropdown-notification {
+   height: 40px;
+   line-height: 40px;
+   position: relative;
+   top: -40px;
+   transition: top .2s;
+   background: rgb(176,191,26);
+}
+.dropdown-notification.active {
+   top: 0;
+}
+
+ul {
+  display: grid;
+  width: 60%;
+  margin: 0 auto;
+  padding: unset;
+}
+
+li{
+  margin: 20px;
+  width: 250px;
+  height: 200px;
+  display: inline-grid;
+  background-color: #ddd;
+  position: relative;
+}
+
+.gameImg{
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;
+  position: absolute;
+  width: 95%;
+  height: 95%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color:#000000;
+  margin: none;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
